@@ -24,7 +24,6 @@ body {
     background-position: center; /* Центрирует изображение */
     background-repeat: no-repeat; /* Отключает повтор фона */
     background-attachment: fixed; /* Фон фиксирован при скролле */
-    color: #fff; /* Цвет текста */
     font-family: "Sour Gummy", sans-serif;
     color: greenyellow;
 }
