@@ -19,7 +19,7 @@ html, body {
 }
 
 body {
-    background-image: url('../img/background.jpg'); /* Укажи правильный путь */
+    background-image: url('../../background.jpg'); /* Укажи правильный путь */
     background-size: cover; /* Масштабирует изображение по размеру экрана */
     background-position: center; /* Центрирует изображение */
     background-repeat: no-repeat; /* Отключает повтор фона */
