@@ -22,7 +22,7 @@ body {
     background:  url('background\(1\).jpg') no-repeat center /cover, #555555;
     font-family: "Sour Gummy", sans-serif;
     color: #fff;
-    background-blend-mode: color-burn;
+    /* background-blend-mode: color-burn; */
 }
 
 /* Контентная часть */
@@ -126,7 +126,6 @@ footer {
         background:  url('background\(1\).jpg') no-repeat center /cover, #555555;
         font-family: "Sour Gummy", sans-serif;
         color: #fff;
-        background-blend-mode: color-burn;
     }
     
     header {
@@ -145,7 +144,7 @@ footer {
         margin: 10px 0;
         font-size: 17px;
         border-radius: 17px;
-        color: #fff;
+        color: black;
     }
 
     ul {
