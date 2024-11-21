@@ -19,15 +19,11 @@ html, body {
 }
 
 body {
-    background-image: url('background.jpg'); /* Укажи правильный путь */
-    background-size: cover; /* Масштабирует изображение по размеру экрана */
-    background-position: center; /* Центрирует изображение */
-    background-repeat: no-repeat; /* Отключает повтор фона */
-    background-attachment: fixed; /* Фон фиксирован при скролле */
+    background:  url('background\(1\).jpg') no-repeat center /cover, #555555;
     font-family: "Sour Gummy", sans-serif;
-    color: greenyellow;
+    color: #fff;
+    background-blend-mode: color-burn;
 }
-
 
 /* Контентная часть */
 .container {
@@ -39,8 +35,8 @@ body {
 }
 
 li {
-    width: 200px;
-    height: 100px;
+    width: 250px;
+    height: 150px;
     border-radius: 50px;
     list-style: none;
     font-size: 26px;
@@ -49,9 +45,9 @@ li {
     align-items: center;
     padding: 20px;
     margin: 20px;
-    background-color: rgba(255, 255, 0, 0.274);
+    background-color: rgba(255, 255, 0, 0.5);
     border: 2px solid black;
-    color: blue;
+    color: black;
 }
 
 header {
@@ -83,7 +79,7 @@ ul {
 /* Футер */
 footer {
     width: 100%;
-    height: 200px;
+    height: auto;
     background-color: black;
     color: #fff;
     display: flex;
@@ -105,7 +101,7 @@ footer {
     }
 
     li {
-        width: 150px;
+        width: 200px;
         height: 60px;
         font-size: 18px;
         padding: 12px;
@@ -127,11 +123,10 @@ footer {
 /* Медиазапросы для мобильных устройств (до 768px) */
 @media (max-width: 768px) {
     body {
-        background-image: url('background_smartphone.jpg'); /* Укажи правильный путь */
-    background-size: cover; /* Масштабирует изображение по размеру экрана */
-    background-position: center; /* Центрирует изображение */
-    background-repeat: no-repeat; /* Отключает повтор фона */
-    background-attachment: fixed; /* Фон фиксирован при скролле */
+        background:  url('background\(1\).jpg') no-repeat center /cover, #555555;
+        font-family: "Sour Gummy", sans-serif;
+        color: #fff;
+        background-blend-mode: color-burn;
     }
     
     header {
@@ -144,7 +139,8 @@ footer {
     }
 
     li {
-        width: 100%;
+        width: 200px;
+        height:50px;
         padding: 13px;
         margin: 10px 0;
         font-size: 17px;
