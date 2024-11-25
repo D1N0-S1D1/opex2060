@@ -22,7 +22,7 @@ body {
     background:  url('background\(1\).jpg') no-repeat center /cover, #555555;
     font-family: "Sour Gummy", sans-serif;
     color: #fff;
-    /* background-blend-mode: color-burn; */
+    background-blend-mode: color-burn;
 }
 
 /* Контентная часть */
@@ -39,13 +39,13 @@ li {
     height: 150px;
     border-radius: 50px;
     list-style: none;
-    font-size: 26px;
+    font-size: 36px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px;
     margin: 20px;
-    background-color: rgba(255, 255, 0, 0.5);
+    background-color: rgba(0, 225, 255, 0.5);
     border: 2px solid black;
     color: black;
 }
