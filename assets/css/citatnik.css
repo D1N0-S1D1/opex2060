@@ -26,7 +26,7 @@ body {
 }
 
 hr {
-    width: 500px;
+    width: auto;
     height: 10px;
     background-color: black;
     border-radius: 20px;
@@ -42,7 +42,8 @@ hr {
 }
 
 .citata {
-    width: 100%;
+    margin: 40px;
+    width: auto;
     height: auto;
     font-size: 28px;
     color: #fff;
@@ -101,6 +102,7 @@ footer {
     align-items: center;
     padding: 20px;
     font-size: 20px;
+
 }
 
 /* Медиазапросы для планшетов (от 768px до 1024px) */
@@ -115,14 +117,15 @@ footer {
     }
 
     .citata {
-        width: 100%;
+        margin: 40px;
+        width: auto;
         height: auto;
         font-size: 22px;
         color: #fff;
     }
 
     hr {
-        width: 200px;
+        width: auto;
         height: 10px;
         background-color: black;
         border-radius: 20px;
@@ -162,7 +165,8 @@ footer {
     }
 
     .citata {
-        width: 100%;
+        margin: 40px;
+        width: auto;
         height: auto;
         font-size: 19px;
         color: #fff;
@@ -173,7 +177,7 @@ footer {
     }
 
     hr {
-        width: 100px;
+        width: auto;
         height: 10px;
         background-color: black;
         border-radius: 20px;
