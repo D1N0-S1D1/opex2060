@@ -19,10 +19,17 @@ html, body {
 }
 
 body {
-    background:  url('background\(1\).jpg') no-repeat center /cover, #555555;
+    background: no-repeat center /cover, #555555;
     font-family: "Sour Gummy", sans-serif;
     color: #fff;
     background-blend-mode: color-burn;
+}
+
+hr {
+    width: 500px;
+    height: 10px;
+    background-color: black;
+    border-radius: 20px;
 }
 
 /* Контентная часть */
@@ -34,9 +41,16 @@ body {
     justify-content: center;
 }
 
+.citata {
+    width: 100%;
+    height: auto;
+    font-size: 28px;
+    color: #fff;
+}
+
 li {
-    width: 200px;
-    height: 130px;
+    width: 250px;
+    height: 150px;
     border-radius: 50px;
     list-style: none;
     font-size: 36px;
@@ -95,6 +109,18 @@ footer {
         font-size: 36px;
     }
 
+    body {
+        background: no-repeat center /cover, #555555;
+        font-family: "Sour Gummy", sans-serif;
+    }
+
+    hr {
+        width: 200px;
+        height: 10px;
+        background-color: black;
+        border-radius: 20px;
+    }
+
     .description {
         font-size: 20px;
         padding: 30px 10px;
@@ -123,7 +149,7 @@ footer {
 /* Медиазапросы для мобильных устройств (до 768px) */
 @media (max-width: 768px) {
     body {
-        background:  url('background\(1\).jpg') no-repeat center /cover, #555555;
+        background: no-repeat center /cover, #555555;
         font-family: "Sour Gummy", sans-serif;
         color: #fff;
     }
@@ -132,14 +158,21 @@ footer {
         font-size: 34px;
     }
 
+    hr {
+        width: 100px;
+        height: 10px;
+        background-color: black;
+        border-radius: 20px;
+    }
+
     .description {
         font-size: 18px;
         padding: 18px;
     }
 
     li {
-        width: 180px;
-        height:45px;
+        width: 200px;
+        height:50px;
         padding: 13px;
         margin: 10px 0;
         font-size: 17px;
