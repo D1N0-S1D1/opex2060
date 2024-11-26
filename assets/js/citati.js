@@ -8,7 +8,7 @@ const token = '8039218433:AAFRc5oEJkRSpeiugz2lahsFL6sAcyCre5I';
 const bot = new TelegramBot(token, {polling: true});
 
 // Путь к файлу с цитатами
-const filePath = '';
+const filePath = 'https://raw.githubusercontent.com/D1N0-S1D1/opex2060/refs/heads/main/assets/json/citati.json';
 
 // Функция для добавления цитаты в JSON
 function addQuote(text) {
