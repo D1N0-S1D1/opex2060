@@ -19,7 +19,8 @@ html, body {
 }
 
 body {
-    background:  url('background\(1\).jpg') no-repeat center /cover, #555555;
+    background: url("background\(1\).jpg") center center no-repeat  fixed #555555;
+    background-size: cover;
     font-family: "Sour Gummy", sans-serif;
     color: #fff;
     background-blend-mode: color-burn;
@@ -95,6 +96,14 @@ footer {
         font-size: 36px;
     }
 
+    body {
+        background: url("background\(1\).jpg") center center no-repeat  fixed #555555;
+        background-size: cover;
+        font-family: "Sour Gummy", sans-serif;
+        color: #fff;
+        background-blend-mode: color-burn;
+    }
+
     .description {
         font-size: 20px;
         padding: 30px 10px;
@@ -123,9 +132,11 @@ footer {
 /* Медиазапросы для мобильных устройств (до 768px) */
 @media (max-width: 768px) {
     body {
-        background:  url('background\(1\).jpg') no-repeat center /cover, #555555;
+        background: url("background\(1\).jpg") center center no-repeat  fixed #555555;
+        background-size: cover;
         font-family: "Sour Gummy", sans-serif;
         color: #fff;
+        background-blend-mode: color-burn;
     }
     
     header {
