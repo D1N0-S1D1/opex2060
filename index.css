@@ -77,6 +77,16 @@ ul {
     flex-wrap: wrap;
 }
 
+ul>li {
+    background-color: transparent !important;
+    color: inherit !important;
+    border: none !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+}
+
 /* Футер */
 footer {
     width: 100%;

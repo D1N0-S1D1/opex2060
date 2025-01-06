@@ -40,6 +40,17 @@ body {
     height: auto;
 }
 
+ul>li {
+    background-color: transparent !important;
+    color: inherit !important;
+    border: none !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+}
+
+
 li {
     width: auto;
     height: auto;

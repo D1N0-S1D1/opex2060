@@ -32,6 +32,17 @@ hr {
     border-radius: 20px;
 }
 
+ul>li {
+    background-color: transparent !important;
+    color: inherit !important;
+    border: none !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+}
+
+
 /* Контентная часть */
 .container {
     flex: 1;
